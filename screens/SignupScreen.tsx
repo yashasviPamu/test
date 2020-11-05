@@ -136,7 +136,7 @@ return (
       </View>
       <View style={styles.ButtonContainer}>
         <Button title='Sign Up' onPress={() => 
-           {const checkValid = phoneInput.current?.isValidNumber;
+           {const checkValid = phoneInput.current?.isValidNumber(value);
             setShowMessage(true);
             setValid(checkValid ? checkValid : false);}}/>
       </View>
