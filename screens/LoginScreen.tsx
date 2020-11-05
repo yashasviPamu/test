@@ -34,6 +34,7 @@ const styles = StyleSheet.create({
   },
   txtHello: {
       textAlign:'center',
+      fontWeight:'bold',
       fontSize: 30,
       marginTop:20
   }
